@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "spectral";
+    src: url(/Spectral_SC/SpectralSC-Medium.ttf) format(trutype);
+    font-weight: 400
+    ;
+}
+
+@font-face {
+    font-family: "spectral";
+    src: url(/Spectral_SC/SpectralSC-Bold.ttf) format(trutype);
+    font-weight: 700
+    ;
+}
+
+
+@font-face {
+    font-family: "spectral";
+    src: url(/Spectral_SC/SpectralSC-ExtraBold.ttf) format(trutype);
+    font-weight: 900
+    ;
+}

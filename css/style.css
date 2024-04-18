@@ -1,0 +1,252 @@
+body{
+    background-image: url(/imagenes/fondo.jpeg);   
+}
+
+footer{
+    background-image: url(/imagenes/fondo\ verde.jpeg);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    height: 40px;
+}
+
+.redes{
+    text-decoration: none;
+    color: white;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: fantasy;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    color:white;
+    background-image: url(/imagenes/fondo\ verde.jpeg);
+    display: flex;
+}
+
+
+option{
+    background-color: green;
+    color: white;
+}
+
+select{
+    border-radius: 6px;
+    border: 2px solid green;
+}
+
+textarea {
+    resize: none;
+}
+
+.carousel-inner{
+    height: 600px;
+    object-fit: cover;
+}
+
+
+#cantidad{
+    justify-content: flex-end;
+}
+
+
+.logo{
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.543));
+}
+
+.logoytexto{
+display: flex;
+justify-content: start;
+align-items: center;
+
+}
+
+.inicio{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    font-size: 20px;
+    font-family: cursive;
+    
+}
+
+.nehuen{
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.formulario {
+    background-image: url(../imagenes/fondo\ verde.jpeg);
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    color:white
+}
+
+.formulario_input{
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid rgb(244, 244, 244);
+    background: transparent;
+    color: rgb(229, 229, 229);
+}
+
+.formulario_botton{
+    background: transparent;
+    border: none;
+    color: rgb(229, 229, 229);
+}
+
+.formulario_botton:hover{
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.744);
+}
+
+.dia{
+    width: 50px;
+    margin-top: 10px;
+}
+
+.recetas{
+    background-color: rgb(211, 244, 207);
+    border: 2px solid rgb(5, 55, 17);
+    border-radius: 40px;
+    gap: 10px;
+}
+
+.recetas img{
+    width: 90%;
+    height: 150px;
+    object-fit: cover;
+    
+}
+
+.recetafoto{
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+.Ingredientes{
+    text-align: center;
+    list-style-type: none
+}
+
+.notici{
+    border: 2px solid rgb(0, 0, 0);
+    padding:30px;
+    margin: 10px;
+    background-image: url(../imagenes/fondo\ verde.jpeg);
+    color: white;
+    border-radius: 10px ;
+}
+
+.anoticias{
+    text-decoration: none;
+    color: white;
+}
+
+.notici article{
+    border: 0px solid rgb(3, 59, 3);
+    border-radius: 5px;
+    
+}
+
+.notici article:hover{
+    background-color: rgba(0, 0, 0, 0.721);
+
+}
+
+.fotonoti{
+    height: 70%;
+}
+
+
+.noticias{
+    padding:30px;
+    margin: 10px;
+    height: 400px;
+    overflow: hidden;
+    
+}
+
+.tnoticia{
+    width: 100%;
+}
+
+.fotonoti{
+    width: 100%;
+    margin: 10px;
+    
+}
+
+
+.product-card{
+    background-image: url(../imagenes/fondo\ verde.jpeg);
+    color: white;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.product-card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.product-card img:hover{
+    width: 500px;
+    translate: 0.5s;
+    
+
+}
+
+
+.product-body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.btn-green{
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.btn-green:hover{
+    background-image: url(../imagenes/fondo.jpeg);
+    color:black;
+}
+
+.enviar{
+    border: 2px solid green;
+    border-radius: 5px;
+    margin: 0;
+    width: 55px;
+}
+
+.formulariocontacto{
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
