@@ -47,10 +47,6 @@ select{
     border: 2px solid green;
 }
 
-textarea {
-    resize: none;
-}
-
 .carousel-inner{
     height: 600px;
     object-fit: cover;
@@ -60,7 +56,10 @@ textarea {
 #cantidad{
     justify-content: flex-end;
 }
-
+.hamburgesa{
+    background-color: rgb(166, 188, 148);
+    border-radius: 10px;
+}
 
 .logo{
     filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.543));
@@ -88,34 +87,7 @@ align-items: center;
     font-weight: bold;
 }
 
-.formulario {
-    background-image: url(../imagenes/fondoverde.jpeg);
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-    border: 2px solid;
-    border-radius: 5px;
-    color:white
-}
 
-.formulario_input{
-    padding: 5px;
-    border: none;
-    border-bottom: 1px solid rgb(244, 244, 244);
-    background: transparent;
-    color: rgb(229, 229, 229);
-}
-
-.formulario_botton{
-    background: transparent;
-    border: none;
-    color: rgb(229, 229, 229);
-}
-
-.formulario_botton:hover{
-    border-radius: 3px;
-    background-color: rgba(0, 0, 0, 0.744);
-}
 
 .dia{
     width: 50px;
@@ -148,16 +120,22 @@ align-items: center;
 }
 
 .notici{
-    border: 2px solid rgb(0, 0, 0);
-    padding:30px;
-    margin: 10px;
-    background-image: url(../imagenes/fondoverde.jpeg);
     color: white;
-    border-radius: 10px ;
 }
 
+.cuadro-noticias{
+    background-image: url(../imagenes/fondoverde.jpeg);
+    margin: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cuadro-noticia{
+    background-image: url(../imagenes/fondoverde.jpeg);
+}
 .anoticias{
     text-decoration: none;
+    background-image: url(../imagenes/fondoverde.jpeg);
     color: white;
 }
 
@@ -183,6 +161,7 @@ align-items: center;
 
 .tnoticia{
     width: 100%;
+    color: white;
 }
 
 .fotonoti{
@@ -239,9 +218,62 @@ align-items: center;
     width: 55px;
 }
 
-.formulariocontacto{
+.formulario-contacto{
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    border-radius: 5px;
-    margin: 10px;
-    
+}
+
+.form-texto{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.form-texto a{
+color: rgb(1, 52, 26);
+font-size: 14px;
+text-decoration: none;
+}
+
+.contactos{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.boton-c{
+    box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
+}
+
+.boton-c:hover{
+    color: white;
+    background-color: rgb(1, 59, 2);
+}
+
+label{
+    color: black;
+    margin-bottom: 15px;
+}
+
+input, textarea{
+    color: black;
+    padding: 17px 25px;
+    border-radius: 25px;
+    background-color: rgba(88, 169, 41, 0.699);
+    border: 2px solid #f0faf1;
+    outline: none;
+}
+
+form {
+    padding:50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.42);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+    color: black;
 }
