@@ -61,6 +61,9 @@ select{
     border-radius: 10px;
 }
 
+.pestaña{
+    background-color: aquamarine;
+}
 .logo{
     filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.543));
 }
@@ -242,6 +245,7 @@ text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 40px;
 }
 
 
