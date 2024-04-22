@@ -19,6 +19,7 @@ footer{
 h1{
     text-align: center;
     font-family: fantasy;
+    font-size: 40px;
 }
 
 h2{
@@ -34,9 +35,7 @@ h3{
 header{
     color:white;
     background-image: url(../imagenes/fondoverde.jpeg);
-    display: flex;
 }
-
 
 option{
     background-color: green;
@@ -173,10 +172,6 @@ align-items: center;
 
 }
 
-.fotonoti{
-    height: 70%;
-}
-
 
 .noticias{
     padding:30px;
@@ -193,6 +188,7 @@ align-items: center;
 .fotonoti{
     width: 100%;
     margin: 10px;
+    object-fit: cover;
     
 }
 
@@ -211,10 +207,9 @@ align-items: center;
 }
 
 .product-card img:hover{
-    width: 500px;
+    width: 125%;
     translate: 0.5s;
-    
-
+    object-fit: cover;
 }
 
 
