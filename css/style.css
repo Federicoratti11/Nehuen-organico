@@ -24,6 +24,7 @@ h1{
 
 h2{
     text-align: center;
+    font-size: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -104,7 +105,6 @@ align-items: center;
     padding: 10px;
     height: 300px;
     gap: 5px;
-    margin-left: 10px;
 
     
 
