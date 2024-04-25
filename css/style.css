@@ -49,7 +49,6 @@ select{
 }
 
 .carousel-inner{
-    height: 400px;
     object-fit: cover;
 }
 
