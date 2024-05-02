@@ -1,0 +1,29 @@
+.carousel-inner{
+    object-fit: cover;
+}
+
+
+.index-productos{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 62, 6, 0.42);
+}
+
+.index-productos img{
+    height: 250px;
+}
+
+.index-local{
+    box-shadow: 0 0 20px rgba(0, 62, 6, 0.42);
+    margin: 20px;
+    padding: 20px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.index-local img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,51 @@
+.notici{
+    color: white;
+}
+
+.cuadro-noticias{
+    background-image: url(../imagenes/fondoverde.jpeg);
+    margin: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cuadro-noticia{
+    background-image: url(../imagenes/fondoverde.jpeg);
+}
+.anoticias{
+    text-decoration: none;
+    background-image: url(../imagenes/fondoverde.jpeg);
+    color: white;
+}
+
+.notici article{
+    border: 0px solid rgb(3, 59, 3);
+    border-radius: 5px;
+    
+}
+
+.notici article:hover{
+    background-color: rgba(0, 0, 0, 0.721);
+
+}
+
+
+.noticias{
+    padding:30px;
+    margin: 10px;
+    height: 400px;
+    overflow: hidden;
+    
+}
+
+.tnoticia{
+    width: 100%;
+    color: white;
+}
+
+.fotonoti{
+    width: 100%;
+    margin: 10px;
+    object-fit: cover;
+    
+}

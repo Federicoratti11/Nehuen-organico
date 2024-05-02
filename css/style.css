@@ -1,313 +1,244 @@
-body{
-    background-image: url(../imagenes/fondo.jpeg);   
+body {
+  background-image: url(../imagenes/fondo.jpeg);
 }
 
-footer{
-    background-image: url(../imagenes/fondoverde.jpeg);
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    height: 40px;
+h1 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 40px;
 }
 
-.redes{
-    text-decoration: none;
-    color: white;
-    
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Courier New", Courier, monospace;
 }
 
-h1{
-    text-align: center;
-    font-family: cursive;
-    font-size: 40px;
+h3 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
 }
 
-h2{
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: 'Courier New', Courier, monospace;
+footer {
+  background-image: url(../../imagenes/fondoverde.jpeg);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  height: 40px;
 }
 
-h3{
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+.redes {
+  text-decoration: none;
+  color: white;
 }
 
-header{
-    color:white;
-    background-image: url(../imagenes/fondoverde.jpeg);
+header {
+  color: white;
+  background-image: url(../imagenes/fondoverde.jpeg);
 }
 
-option{
-    background-color: green;
-    color: white;
+.carousel-inner {
+  object-fit: cover;
 }
 
-select{
-    border-radius: 6px;
-    border: 2px solid green;
+.index-productos {
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 62, 6, 0.42);
 }
 
-.carousel-inner{
-    object-fit: cover;
+.index-productos img {
+  height: 250px;
 }
 
-
-.index-productos{
-    border-radius: 10px;
-    margin: 10px;
-    padding: 20px;
-    box-shadow: 0 0 20px rgba(0, 62, 6, 0.42);
+.index-local {
+  box-shadow: 0 0 20px rgba(0, 62, 6, 0.42);
+  margin: 20px;
+  padding: 20px;
+  height: 400px;
+  border-radius: 10px;
 }
 
-.index-productos img{
-    height: 250px;
+.index-local img {
+  height: 80%;
+  width: 100%;
+  object-fit: cover;
 }
 
-.index-local{
-    box-shadow: 0 0 20px rgba(0, 62, 6, 0.42);
-    margin: 20px;
-    padding: 20px;
-    height: 400px;
-    border-radius: 10px;
+.product-card {
+  background-image: url(../imagenes/fondoverde.jpeg);
+  color: white;
+  gap: 10px;
+  overflow: hidden;
+}
+.product-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.product-card img:hover {
+  width: 125%;
+  translate: 0.5s;
+  object-fit: cover;
 }
 
-.index-local img{
-    height: 80%;
-    width: 100%;
-    object-fit: cover;
+.product-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
 }
 
-#cantidad{
-    justify-content: flex-end;
+.btn-green {
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
 }
-.hamburgesa{
-    background-color: rgb(166, 188, 148);
-    border-radius: 10px;
-}
-
-.pestaña{
-    background-color: aquamarine;
-}
-.logo{
-    filter: drop-shadow(0 0 10px rgba(11, 50, 1, 0.543));
+.btn-green:hover {
+  background-image: url(../imagenes/fondo.jpeg);
+  color: black;
 }
 
-.logoytexto{
-display: flex;
-justify-content: start;
-align-items: center;
-
+.notici {
+  color: white;
 }
 
-.inicio{
-    display: flex;
-    margin-left: auto;
-    align-items: center;
-    font-size: 20px;
-    font-family: cursive;
-    
+.cuadro-noticias {
+  background-image: url(../imagenes/fondoverde.jpeg);
+  margin: 50px;
+  padding: 10px;
+  border-radius: 10px;
 }
 
-.nehuen{
-    font-family: cursive;
-    font-size: 40px;
-    font-weight: bold;
+.cuadro-noticia {
+  background-image: url(../imagenes/fondoverde.jpeg);
 }
 
-
-
-.dia{
-    width: 50px;
-    margin-top: 10px;
+.anoticias {
+  text-decoration: none;
+  background-image: url(../imagenes/fondoverde.jpeg);
+  color: white;
 }
 
-.recetas{
-    background-image: url(../imagenes/fondoverde.jpeg);
-    color: rgb(220, 247, 209);
-    border: 2px solid rgb(5, 55, 17);
-    padding: 10px;
-    height: 300px;
-    gap: 5px;
-
-    
-
+.notici article {
+  border: 0px solid rgb(3, 59, 3);
+  border-radius: 5px;
 }
 
-.receta-foto{
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    
+.notici article:hover {
+  background-color: rgba(0, 0, 0, 0.721);
 }
 
-.recetafoto{
-    width: 350px;
-    display: block;
-    margin: 0 auto;
+.noticias {
+  padding: 30px;
+  margin: 10px;
+  height: 400px;
+  overflow: hidden;
 }
 
-.Ingredientes{
-    text-align: center;
-    list-style-type: none
+.tnoticia {
+  width: 100%;
+  color: white;
 }
 
-.notici{
-    color: white;
+.fotonoti {
+  width: 100%;
+  margin: 10px;
+  object-fit: cover;
 }
 
-.cuadro-noticias{
-    background-image: url(../imagenes/fondoverde.jpeg);
-    margin: 50px;
-    padding: 10px;
-    border-radius: 10px;
+.recetas {
+  background-image: url(../imagenes/fondoverde.jpeg);
+  color: rgb(220, 247, 209);
+  border: 2px solid rgb(5, 55, 17);
+  padding: 10px;
+  height: 300px;
+  gap: 5px;
 }
 
-.cuadro-noticia{
-    background-image: url(../imagenes/fondoverde.jpeg);
-}
-.anoticias{
-    text-decoration: none;
-    background-image: url(../imagenes/fondoverde.jpeg);
-    color: white;
+.receta-foto {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
-.notici article{
-    border: 0px solid rgb(3, 59, 3);
-    border-radius: 5px;
-    
+.recetafoto {
+  width: 350px;
+  display: block;
+  margin: 0 auto;
 }
 
-.notici article:hover{
-    background-color: rgba(0, 0, 0, 0.721);
-
+.Ingredientes {
+  text-align: center;
+  list-style-type: none;
 }
 
-
-.noticias{
-    padding:30px;
-    margin: 10px;
-    height: 400px;
-    overflow: hidden;
-    
+.enviar {
+  border: 2px solid green;
+  border-radius: 5px;
+  margin: 0;
+  width: 55px;
 }
 
-.tnoticia{
-    width: 100%;
-    color: white;
+.formulario-contacto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-.fotonoti{
-    width: 100%;
-    margin: 10px;
-    object-fit: cover;
-    
+.form-texto {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 }
 
-
-.product-card{
-    background-image: url(../imagenes/fondoverde.jpeg);
-    color: white;
-    gap: 10px;
-    overflow: hidden;
+.form-texto a {
+  color: rgb(1, 52, 26);
+  font-size: 14px;
+  text-decoration: none;
 }
 
-.product-card img{
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
+.contactos {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
 }
 
-.product-card img:hover{
-    width: 125%;
-    translate: 0.5s;
-    object-fit: cover;
+.boton-c {
+  box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
 }
 
-
-.product-body{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 10px;
+.boton-c:hover {
+  color: white;
+  background-color: rgb(1, 59, 2);
 }
 
-.btn-green{
-    border: 1px solid white;
-    color: white;
-    text-align: center;
-    border-radius: 5px;
+label {
+  color: black;
+  margin-bottom: 15px;
 }
 
-.btn-green:hover{
-    background-image: url(../imagenes/fondo.jpeg);
-    color:black;
-}
-
-.enviar{
-    border: 2px solid green;
-    border-radius: 5px;
-    margin: 0;
-    width: 55px;
-}
-
-.formulario-contacto{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.form-texto{
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
-
-.form-texto a{
-color: rgb(1, 52, 26);
-font-size: 14px;
-text-decoration: none;
-}
-
-.contactos{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 40px;
-}
-
-
-
-.boton-c{
-    box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
-}
-
-.boton-c:hover{
-    color: white;
-    background-color: rgb(1, 59, 2);
-}
-
-label{
-    color: black;
-    margin-bottom: 15px;
-}
-
-input, textarea{
-    color: black;
-    padding: 17px 25px;
-    border-radius: 25px;
-    background-color: rgba(88, 169, 41, 0.699);
-    border: 2px solid #f0faf1;
-    outline: none;
+input, textarea {
+  color: black;
+  padding: 17px 25px;
+  border-radius: 25px;
+  background-color: rgba(88, 169, 41, 0.699);
+  border: 2px solid #f0faf1;
+  outline: none;
 }
 
 form {
-    padding:50px 55px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.42);
-    border-radius: 20px;
-    text-align: center;
-    width: 340px;
-    color: black;
+  padding: 50px 55px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.42);
+  border-radius: 20px;
+  text-align: center;
+  width: 340px;
+  color: black;
 }
+
+/*# sourceMappingURL=style.css.map */

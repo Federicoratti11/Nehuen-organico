@@ -1,0 +1,67 @@
+.enviar{
+    border: 2px solid green;
+    border-radius: 5px;
+    margin: 0;
+    width: 55px;
+}
+
+.formulario-contacto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form-texto{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.form-texto a{
+color: rgb(1, 52, 26);
+font-size: 14px;
+text-decoration: none;
+}
+
+.contactos{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+
+
+.boton-c{
+    box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
+}
+
+.boton-c:hover{
+    color: white;
+    background-color: rgb(1, 59, 2);
+}
+
+label{
+    color: black;
+    margin-bottom: 15px;
+}
+
+input, textarea{
+    color: black;
+    padding: 17px 25px;
+    border-radius: 25px;
+    background-color: rgba(88, 169, 41, 0.699);
+    border: 2px solid #f0faf1;
+    outline: none;
+}
+
+form {
+    padding:50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.42);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+    color: black;
+}
