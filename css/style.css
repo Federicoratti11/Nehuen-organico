@@ -1,5 +1,8 @@
 body {
   background-image: url(../imagenes/fondo.jpeg);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 h1 {
@@ -24,7 +27,8 @@ footer {
   color: white;
   text-align: center;
   padding: 10px 0;
-  height: 40px;
+  height: 100px;
+  margin-top: auto;
 }
 
 .redes {
@@ -67,18 +71,19 @@ header {
 }
 
 .product-card {
-  background-image: url(../imagenes/fondoverde.jpeg);
-  color: white;
+  background-color: white;
+  color: black;
   gap: 10px;
   overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 2, 0, 0.4);
 }
 .product-card img {
-  width: 100%;
   height: 300px;
+  width: 100%;
   object-fit: cover;
 }
 .product-card img:hover {
-  width: 125%;
+  scale: 1.2;
   translate: 0.5s;
   object-fit: cover;
 }
@@ -92,43 +97,90 @@ header {
 
 .btn-green {
   border: 1px solid white;
-  color: white;
+  color: black;
   text-align: center;
   border-radius: 5px;
 }
 .btn-green:hover {
-  background-image: url(../imagenes/fondo.jpeg);
   color: black;
 }
 
-.notici {
-  color: white;
+.cta {
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+  margin: auto;
+  padding: 19px 22px;
+  transition: all 0.2s ease;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.744);
+  width: 56px;
+  height: 56px;
+  transition: all 0.3s ease;
+}
+
+.cta span {
+  position: relative;
+  font-size: 11px;
+  line-height: 18px;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #111;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: rgba(49, 176, 58, 0.744);
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active {
+  transform: scale(0.96);
 }
 
 .cuadro-noticias {
-  background-image: url(../imagenes/fondoverde.jpeg);
+  background-color: rgba(219, 247, 216, 0.507);
   margin: 50px;
   padding: 10px;
   border-radius: 10px;
-}
-
-.cuadro-noticia {
-  background-image: url(../imagenes/fondoverde.jpeg);
+  box-shadow: 0 0 5px rgba(0, 2, 0, 0.4);
 }
 
 .anoticias {
   text-decoration: none;
   background-image: url(../imagenes/fondoverde.jpeg);
-  color: white;
+  color: black;
 }
 
 .notici article {
   border: 0px solid rgb(3, 59, 3);
   border-radius: 5px;
-}
-
-.notici article:hover {
-  background-color: rgba(0, 0, 0, 0.721);
 }
 
 .noticias {
@@ -139,13 +191,15 @@ header {
 }
 
 .tnoticia {
+  padding: 25px;
   width: 100%;
-  color: white;
+  color: black;
 }
 
 .fotonoti {
   width: 100%;
   margin: 10px;
+  padding: 10px;
   object-fit: cover;
 }
 

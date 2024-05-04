@@ -1,21 +1,16 @@
-.notici{
-    color: white;
-}
 
 .cuadro-noticias{
-    background-image: url(../imagenes/fondoverde.jpeg);
+    background-color: rgba(226, 247, 223, 0.507);
     margin: 50px;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 2, 0, 0.4);
 }
 
-.cuadro-noticia{
-    background-image: url(../imagenes/fondoverde.jpeg);
-}
 .anoticias{
     text-decoration: none;
     background-image: url(../imagenes/fondoverde.jpeg);
-    color: white;
+    color: black;
 }
 
 .notici article{
@@ -24,10 +19,6 @@
     
 }
 
-.notici article:hover{
-    background-color: rgba(0, 0, 0, 0.721);
-
-}
 
 
 .noticias{
@@ -39,13 +30,15 @@
 }
 
 .tnoticia{
+    padding: 25px;
     width: 100%;
-    color: white;
+    color: black
 }
 
 .fotonoti{
     width: 100%;
     margin: 10px;
+    padding: 10px;
     object-fit: cover;
     
 }
