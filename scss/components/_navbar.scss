@@ -1,11 +1,13 @@
 header{
     color:black;
-    background-image: linear-gradient(to right, #7f9b6b, #ffffff8c);
-    height: 80px;
+    //background-image: linear-gradient(to bottom right , #7f9b6b, #ffffff8c,#ffffff8c);
+    background-color: #f8fff5;
+    height: 100px;
+    box-shadow: 0 0 5px rgba(0, 2, 0, 0.4);
 }
 
 .logo {
-    height: 70px;
+    height: 90px;
 }
 
 .navegador:hover{

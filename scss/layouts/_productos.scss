@@ -1,3 +1,32 @@
+.titulo-productos{
+        color: white;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 10px;
+        background-color: rgba(17, 1, 1, 0.384);
+        background-image: url(../../imagenes/producto-banner.png);
+        background-size: cover;
+        background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+        background-position: center;
+        height: 300px;
+
+  h1{
+      font-size: 5rem;
+  }
+}
+
+
+.desc-productos{
+  background-color: #f8fff5;
+  font-size: 1.2rem;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 2, 0, 0.868);
+  padding: 10px;
+}
+
+
 .product-card{
     //background-image: url(../imagenes/fondoverde.jpeg);
     background-color: white;
@@ -14,7 +43,7 @@
 
 
         &:hover{
-            scale: 1.2;
+            box-shadow: 0 0 15px rgba(13, 229, 13, 0.868);
             translate: 0.5s;
             object-fit: cover;
             }
