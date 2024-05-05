@@ -37,8 +37,17 @@ footer {
 }
 
 header {
-  color: white;
-  background-image: url(../imagenes/fondoverde.jpeg);
+  color: black;
+  background-image: linear-gradient(to right, #7f9b6b, rgba(255, 255, 255, 0.5490196078));
+  height: 80px;
+}
+
+.logo {
+  height: 70px;
+}
+
+.navegador:hover {
+  scale: 1.2;
 }
 
 .carousel-inner {
@@ -165,7 +174,7 @@ header {
 }
 
 .cuadro-noticias {
-  background-color: rgba(219, 247, 216, 0.507);
+  background-color: rgba(226, 247, 223, 0.507);
   margin: 50px;
   padding: 10px;
   border-radius: 10px;
