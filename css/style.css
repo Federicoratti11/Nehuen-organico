@@ -8,17 +8,33 @@ body {
 }
 
 footer {
-  background-image: url(../../imagenes/fondoverde.jpeg);
-  color: white;
-  text-align: center;
+  background-color: #f8fff5;
+  color: black;
   padding: 10px 0;
   height: 100px;
   margin-top: auto;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(49, 68, 49, 0.868);
 }
 
 .redes {
   text-decoration: none;
+  color: black;
+  margin: 15px;
+  transition: transform 0.3s ease;
+}
+.redes:hover {
+  transform: rotate(360deg);
+}
+
+.foterfede {
+  display: flex;
   color: white;
+  justify-content: center;
+  background-color: rgb(2, 51, 2);
+  padding: 5px;
+  margin: 10px;
 }
 
 header {
@@ -26,10 +42,12 @@ header {
   background-color: #f8fff5;
   height: 100px;
   box-shadow: 0 0 5px rgba(0, 2, 0, 0.4);
+  z-index: 1000;
 }
 
 .logo {
   height: 90px;
+  padding: 5px;
 }
 
 .navegador:hover {
