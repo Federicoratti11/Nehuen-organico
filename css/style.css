@@ -59,7 +59,7 @@ header {
 }
 
 .index-organico {
-  background-image: url(../../imagenes/fondo.jpeg);
+  background-image: url(../imagenes/fondo.jpeg);
   display: flex;
 }
 .index-organico article {

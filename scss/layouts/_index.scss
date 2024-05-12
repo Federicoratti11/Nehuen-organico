@@ -1,10 +1,12 @@
+//Sass --watch scss:css
+
 .carousel-inner{
     object-fit: cover;
 }
 
 
 .index-organico{
-    background-image: url(../../imagenes/fondo.jpeg);
+    background-image: url(../imagenes/fondo.jpeg);
     display: flex;
 
     article{
