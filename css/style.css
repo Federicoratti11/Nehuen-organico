@@ -74,7 +74,7 @@ header {
 }
 
 .index-organico2 {
-  background-image: url(../../imagenes/fondoverde.jpeg);
+  background-image: url(../imagenes/fondoverde.jpeg);
   display: flex;
   color: white;
 }
@@ -92,7 +92,7 @@ header {
 
 .index-local {
   box-shadow: 0 0 20px rgba(0, 62, 6, 0.42);
-  background-image: url(../../imagenes/fondoverde.jpeg);
+  background-image: url(../imagenes/fondoverde.jpeg);
   color: white;
   text-align: center;
   height: 400px;
