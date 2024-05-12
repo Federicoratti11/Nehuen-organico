@@ -3,27 +3,47 @@
 }
 
 
-.index-productos{
-    border-radius: 10px;
-    margin: 10px;
-    padding: 20px;
-    box-shadow: 0 0 20px rgba(0, 62, 6, 0.42);
+.index-organico{
+    background-image: url(../../imagenes/fondo.jpeg);
+    display: flex;
+
+    article{
+        width: 50%;
+        height: 300px;
+        padding-top: 5%;
+        text-align: center;
+    }
+
+    img{
+        width: 50%;
+        height: 300px;
+    }
 }
 
-.index-productos img{
-    height: 250px;
+.index-organico2{
+    background-image: url(../../imagenes/fondoverde.jpeg);
+    display: flex;
+    color: white;
+
+    article{
+        width: 50%;
+        height: 300px;
+        padding-top: 5%;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    img{
+        width: 50%;
+        height: 300px;
+    }
 }
+
 
 .index-local{
     box-shadow: 0 0 20px rgba(0, 62, 6, 0.42);
-    margin: 20px;
-    padding: 20px;
+    background-image: url(../../imagenes/fondoverde.jpeg);
+    color: white;
+    text-align: center;
     height: 400px;
-    border-radius: 10px;
-}
-
-.index-local img{
-    height: 80%;
-    width: 100%;
-    object-fit: cover;
 }
