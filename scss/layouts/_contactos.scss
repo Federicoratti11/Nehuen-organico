@@ -1,3 +1,29 @@
+.b-contactos{
+    background-image: url(../imagenes/fondo.jpeg);
+}
+
+.titulo-contactos{
+    color: rgb(243, 246, 243);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(2, 40, 4, 0.986);
+    background-image: url(../imagenes/fondoverde.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+    background-position: center;
+    height: 300px;
+
+    h1{
+        font-size: 70px;
+    }
+ }
+
+
+
+
 .enviar{
     border: 2px solid green;
     border-radius: 5px;

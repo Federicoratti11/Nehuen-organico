@@ -96,21 +96,25 @@ header {
   color: white;
   text-align: center;
 }
+.index-local h2 {
+  padding: 20px;
+  font-size: 3rem;
+}
 
 .galeria {
   padding: 20px;
   background: rgb(61, 93, 61);
 }
 .galeria h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
-  padding: 20px 0;
-  color: white;
+  color: rgb(174, 13, 13);
 }
 .galeria-conteiner {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  height: 20%;
   gap: 20px;
 }
 .galeria-conteiner .galeria-item {
@@ -122,10 +126,11 @@ header {
   transform: scale(1);
 }
 .galeria-conteiner .galeria-item img {
-  height: 300px;
+  height: 200px;
   width: 100%;
 }
 .galeria-conteiner .galeria-item .galeria-text {
+  font-size: 0.8rem;
   position: absolute;
   top: 0;
   left: 0;
@@ -138,19 +143,12 @@ header {
   justify-content: center;
   gap: 10px;
   color: white;
-  padding: 20px;
   transition: 0.5s;
   transform: translate(-100%);
+  text-align: center;
 }
-.galeria-conteiner .galeria-item .galeria-text span {
-  display: block;
-  font-size: 2rem;
-  border-top: 2px solid white;
-  padding: 0 10px;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  transition: 0.5s;
+.galeria-conteiner .galeria-item .galeria-text h3 {
+  margin: auto;
 }
 
 .titulo-productos {
@@ -394,6 +392,28 @@ header {
 .Ingredientes {
   text-align: center;
   list-style-type: none;
+}
+
+.b-contactos {
+  background-image: url(../imagenes/fondo.jpeg);
+}
+
+.titulo-contactos {
+  color: rgb(243, 246, 243);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(2, 40, 4, 0.986);
+  background-image: url(../imagenes/fondoverde.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+  background-position: center;
+  height: 300px;
+}
+.titulo-contactos h1 {
+  font-size: 70px;
 }
 
 .enviar {

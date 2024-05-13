@@ -47,6 +47,11 @@
     background-color: rgb(29, 53, 29);
     color: white;
     text-align: center;
+
+    h2{
+        padding: 20px;
+        font-size: 3rem;
+    }
 }
 
 .galeria{
@@ -54,16 +59,16 @@
     background: rgb(61, 93, 61);
 
     h2{
-        font-size: 3rem;
+        font-size: 2rem;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: center;
-        padding: 20px 0;
-        color: white;
+        color: rgb(174, 13, 13);
     }
 
     &-conteiner{
         display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+        height: 20%;
         gap: 20px;
 
 
@@ -80,12 +85,13 @@
             }
 
             img{
-                height: 300px;
+                height: 200px;
                 width: 100%;
             }
 
 
             .galeria-text{
+            font-size: 0.8rem;
             position: absolute;
             top: 0;
             left: 0;
@@ -94,20 +100,14 @@
             background-color: rgba(0, 0, 0, 0.658);
             @include flex(column,flex-start,center,10px);
             color: white;
-            padding: 20px;
             transition: 0.5s;
             transform: translate(-100%);
-
-            span{
-                display: block;
-                font-size: 2rem;
-                border-top: 2px solid white;
-                padding: 0 10px;
-                position: absolute;
-                top: 10px;
-                right: 10px;
-                transition: 0.5s;
+            text-align: center;
+            
+            h3{
+                margin: auto;
             }
+
             }
         }
     }
