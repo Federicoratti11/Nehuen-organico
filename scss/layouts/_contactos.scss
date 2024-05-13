@@ -3,21 +3,22 @@
 }
 
 .titulo-contactos{
-    color: rgb(243, 246, 243);
+    color: white;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
     padding: 10px;
-    background-color: rgba(2, 40, 4, 0.986);
-    background-image: url(../imagenes/fondoverde.jpeg);
+    background-image: url(../../imagenes/campo.jpg);
     background-size: cover;
     background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
     background-position: center;
     height: 300px;
+    box-shadow: 0 0 20px rgb(3, 23, 1);
 
     h1{
-        font-size: 70px;
+        font-size: 5rem;
+        font-family: $main-font;
     }
  }
 

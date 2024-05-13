@@ -6,14 +6,17 @@
 
 
 .index-organico{
-    background-image: url(../imagenes/fondo.jpeg);
+    background: $blanco;
     display: flex;
+    font-family: poppins;
 
     article{
         width: 50%;
         height: 300px;
-        padding-top: 5%;
         text-align: center;
+        padding: 40px;
+        padding-top: 8%;
+        font-size: 90%;
     }
 
     img{
@@ -23,16 +26,18 @@
 }
 
 .index-organico2{
-    background-image: url(../imagenes/fondoverde.jpeg);
+    background: $verde-oscuro;
     display: flex;
     color: white;
+    font-family: poppins;
 
     article{
         width: 50%;
         height: 300px;
-        padding-top: 5%;
         text-align: center;
-        font-size: 1rem;
+        padding: 40px;
+        padding-top: 8%;
+        font-size: 90%;
     }
 
     img{
@@ -43,9 +48,9 @@
 
 
 .index-local{
-    box-shadow: 0 0 20px rgba(0, 62, 6, 0.42);
-    background-color: rgb(29, 53, 29);
-    color: white;
+    background-color: $blanco;
+    color: black;
+    font-family: $main-font;
     text-align: center;
 
     h2{
@@ -56,13 +61,13 @@
 
 .galeria{
     padding: 20px;
-    background: rgb(61, 93, 61);
+    background: $verde-oscuro;
+    font-family: $main-font;
 
     h2{
-        font-size: 2rem;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 3rem;
         text-align: center;
-        color: rgb(174, 13, 13);
+        color: rgb(255, 255, 255);
     }
 
     &-conteiner{

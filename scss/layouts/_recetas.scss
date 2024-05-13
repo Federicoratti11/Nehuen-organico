@@ -14,6 +14,7 @@
 
         h1{
             font-size: 5rem;
+            font-family: $main-font;
         }
       }
 
@@ -23,6 +24,7 @@
     text-align: center;
     box-shadow: 0 0 5px rgba(0, 2, 0, 0.868);
     padding: 10px;
+    font-family: $second-font;
 }
 
 .recetas{
