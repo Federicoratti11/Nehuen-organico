@@ -11,6 +11,7 @@
     font-family: poppins;
 
     article{
+        
         width: 50%;
         height: 300px;
         text-align: center;
@@ -21,7 +22,7 @@
 
     img{
         width: 50%;
-        height: 300px;
+        object-fit: cover;
     }
 }
 
@@ -29,9 +30,11 @@
     background: $verde-oscuro;
     display: flex;
     color: white;
+    height: 300px;
     font-family: poppins;
 
     article{
+
         width: 50%;
         height: 300px;
         text-align: center;
@@ -42,22 +45,11 @@
 
     img{
         width: 50%;
-        height: 300px;
+        object-fit: cover;
+
     }
 }
 
-
-.index-local{
-    background-color: $blanco;
-    color: black;
-    font-family: $main-font;
-    text-align: center;
-
-    h2{
-        padding: 20px;
-        font-size: 3rem;
-    }
-}
 
 .galeria{
     padding: 20px;
@@ -92,6 +84,7 @@
             img{
                 height: 200px;
                 width: 100%;
+                object-fit: cover;
             }
 
 

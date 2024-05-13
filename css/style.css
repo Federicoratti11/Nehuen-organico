@@ -75,13 +75,14 @@ header {
 }
 .index-organico img {
   width: 50%;
-  height: 300px;
+  object-fit: cover;
 }
 
 .index-organico2 {
   background: #0e361f;
   display: flex;
   color: white;
+  height: 300px;
   font-family: poppins;
 }
 .index-organico2 article {
@@ -94,18 +95,7 @@ header {
 }
 .index-organico2 img {
   width: 50%;
-  height: 300px;
-}
-
-.index-local {
-  background-color: #F8FFF5;
-  color: black;
-  font-family: "platypi", sans-serif;
-  text-align: center;
-}
-.index-local h2 {
-  padding: 20px;
-  font-size: 3rem;
+  object-fit: cover;
 }
 
 .galeria {
@@ -135,6 +125,7 @@ header {
 .galeria-conteiner .galeria-item img {
   height: 200px;
   width: 100%;
+  object-fit: cover;
 }
 .galeria-conteiner .galeria-item .galeria-text {
   font-size: 0.8rem;
