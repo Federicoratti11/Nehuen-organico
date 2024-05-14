@@ -15,9 +15,8 @@
         width: 50%;
         height: 300px;
         text-align: center;
-        padding: 40px;
-        padding-top: 8%;
-        font-size: 90%;
+        padding-top: 5%;
+        font-size: 1rem;
     }
 
     img{
@@ -38,9 +37,8 @@
         width: 50%;
         height: 300px;
         text-align: center;
-        padding: 40px;
-        padding-top: 8%;
-        font-size: 90%;
+        padding-top: 5%;
+        font-size: 1rem;
     }
 
     img{
@@ -64,9 +62,16 @@
 
     &-conteiner{
         display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-        height: 20%;
+        grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+        height: 30%;
         gap: 20px;
+
+        img{
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            margin: auto;
+        }
 
 
         .galeria-item{
