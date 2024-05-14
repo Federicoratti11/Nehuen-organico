@@ -12,7 +12,13 @@ header{
     padding: 5px;
 }
 
-.navegador:hover{
-    scale: 1.2;
-    
-}
+.nav-item{
+    a{
+        color: black;
+    }
+
+    a:hover{
+        color: $verde;
+
+        }
+    }
