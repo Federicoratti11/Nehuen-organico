@@ -56,13 +56,86 @@
     
 }
 
-.recetafoto{
-    width: 350px;
-    display: block;
-    margin: 0 auto;
+
+//recetas bunuelo
+
+.titulos-recetas-bunuelo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(17, 1, 1, 0.384);
+    background-image: url(../imagenes/descarga.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+    background-position: center;
+    height: 300px;
+
+    h1{
+    font-family: $main-font;
+    font-size: 4rem;
+    padding: 50px;
 }
+
+img{
+    padding: 20px;
+}
+
+ article{
+    font-family: $second-font;
+    padding-left: 80px;
+    padding-right: 80px;
+ }
+}
+
+
 
 .Ingredientes{
     text-align: center;
+    padding: 50px;
     list-style-type: none
+}
+
+.pasoapaso{
+    background-image: url(../imagenes/fondo.jpeg);
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: $second-font;
+}
+
+
+// receta zapallitos 
+
+.titulos-recetas-zapallito{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(17, 1, 1, 0.384);
+    background-image: url(../../imagenes/zapallito.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+    background-position: center;
+    height: 300px;
+
+    h1{
+    font-family: $main-font;
+    font-size: 4rem;
+    padding: 50px;
+}
+
+img{
+    padding: 20px;
+}
+
+ article{
+    font-family: $second-font;
+    padding-left: 80px;
+    padding-right: 80px;
+ }
 }

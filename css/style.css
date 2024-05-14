@@ -205,9 +205,10 @@ header {
   gap: 10px;
   padding: 10px;
 }
-.product-body h5 {
+.product-body h2 {
   height: 40px;
   margin: 10px;
+  font-size: 1.3rem;
   text-align: center;
 }
 
@@ -390,15 +391,74 @@ header {
   object-fit: cover;
 }
 
-.recetafoto {
-  width: 350px;
-  display: block;
-  margin: 0 auto;
+.titulos-recetas-bunuelo {
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(17, 1, 1, 0.384);
+  background-image: url(../imagenes/descarga.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+  background-position: center;
+  height: 300px;
+}
+.titulos-recetas-bunuelo h1 {
+  font-family: "platypi", sans-serif;
+  font-size: 4rem;
+  padding: 50px;
+}
+.titulos-recetas-bunuelo img {
+  padding: 20px;
+}
+.titulos-recetas-bunuelo article {
+  font-family: "poppins", sans-serif;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .Ingredientes {
   text-align: center;
+  padding: 50px;
   list-style-type: none;
+}
+
+.pasoapaso {
+  background-image: url(../imagenes/fondo.jpeg);
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  font-family: "poppins", sans-serif;
+}
+
+.titulos-recetas-zapallito {
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(17, 1, 1, 0.384);
+  background-image: url(../../imagenes/zapallito.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+  background-position: center;
+  height: 300px;
+}
+.titulos-recetas-zapallito h1 {
+  font-family: "platypi", sans-serif;
+  font-size: 4rem;
+  padding: 50px;
+}
+.titulos-recetas-zapallito img {
+  padding: 20px;
+}
+.titulos-recetas-zapallito article {
+  font-family: "poppins", sans-serif;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .b-contactos {
@@ -412,7 +472,7 @@ header {
   text-align: center;
   align-items: center;
   padding: 10px;
-  background-image: url(../../imagenes/campo.jpg);
+  background-image: url(../imagenes/campo.png);
   background-size: cover;
   background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
   background-position: center;
