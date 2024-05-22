@@ -10,6 +10,7 @@
         rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
         crossorigin="anonymous"/>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
         <meta name="description" content="¡Contáctanos para cualquier pregunta, comentario o sugerencia! Estamos aquí para ayudarte en todo lo que necesites. Completa el formulario y nos pondremos en contacto contigo lo antes posible.">
         <meta name="keywords" content="contacto, formulario de contacto, preguntas, consultas, sugerencias, ayuda, soporte, comunicación, mensaje, correo electrónico, atención al cliente, contacto rápido, formulario en línea, asistencia">
@@ -20,10 +21,10 @@
 <body class="b-contactos">  
     <header>
         <section >                   
-          <nav class="navbar navbar-expand-md ">
+          <nav class="navbar navbar-expand-md p-0" data-aos="fade-right">
             <div class="container-fluid">
               <a class="navbar-brand" href="../index.html">
-                <img src="../imagenes/logo90x90.png"  alt="logo" class="logo"></a>
+                <img src="../imagenes/logo90x90.png"  alt="logo" data-aos="fade-right" class="logo"></a>
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -65,7 +66,7 @@
         </section> 
 </header>
 <section class="titulo-contactos">
-  <h1 >
+  <h1 data-aos="zoom-in-down">
 Contacto
   </h1>
 </section>
@@ -112,5 +113,9 @@ Contacto
   </a>
 </a>   
 </footer> 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
