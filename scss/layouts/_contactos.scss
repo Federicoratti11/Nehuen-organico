@@ -23,7 +23,15 @@
  }
 
 
-
+ .desc-contacto{
+    background-color: #f8fff5;
+    font-size: 1.2rem;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 2, 0, 0.868);
+    padding: 20px;
+    font-family: $second-font;
+    margin-bottom: 30px;
+ }
 
 .enviar{
     border: 2px solid green;

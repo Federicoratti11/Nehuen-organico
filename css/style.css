@@ -70,10 +70,14 @@ header {
 }
 .index-organico article {
   width: 50%;
-  height: 300px;
+  height: 400px;
   text-align: center;
-  padding-top: 5%;
   font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
 .index-organico img {
   width: 50%;
@@ -84,15 +88,18 @@ header {
   background: #0e361f;
   display: flex;
   color: white;
-  height: 300px;
   font-family: poppins;
 }
 .index-organico2 article {
   width: 50%;
-  height: 300px;
+  height: 400px;
   text-align: center;
-  padding-top: 5%;
   font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
 .index-organico2 img {
   width: 50%;
@@ -155,6 +162,9 @@ header {
 .galeria-conteiner .galeria-item .galeria-text h3 {
   margin: auto;
 }
+.galeria-conteiner .galeria-item .galeria-text P {
+  padding: 5PX;
+}
 
 .titulo-productos {
   color: white;
@@ -180,8 +190,9 @@ header {
   font-size: 1.2rem;
   text-align: center;
   box-shadow: 0 0 5px rgba(0, 2, 0, 0.868);
-  padding: 10px;
+  padding: 20px;
   font-family: "poppins", sans-serif;
+  margin-bottom: 40px;
 }
 
 .product-card {
@@ -301,8 +312,9 @@ header {
   font-size: 1.2rem;
   text-align: center;
   box-shadow: 0 0 5px rgba(0, 2, 0, 0.868);
-  padding: 10px;
+  padding: 20px;
   font-family: "poppins", sans-serif;
+  margin-bottom: 40px;
 }
 
 .cuadro-noticias {
@@ -370,8 +382,9 @@ header {
   font-size: 1.2rem;
   text-align: center;
   box-shadow: 0 0 5px rgba(0, 2, 0, 0.868);
-  padding: 10px;
+  padding: 20px;
   font-family: "poppins", sans-serif;
+  margin-bottom: 30px;
 }
 
 .recetas {
@@ -489,6 +502,16 @@ header {
 .titulo-contactos h1 {
   font-size: 5rem;
   font-family: "platypi", sans-serif;
+}
+
+.desc-contacto {
+  background-color: #f8fff5;
+  font-size: 1.2rem;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 2, 0, 0.868);
+  padding: 20px;
+  font-family: "poppins", sans-serif;
+  margin-bottom: 30px;
 }
 
 .enviar {
